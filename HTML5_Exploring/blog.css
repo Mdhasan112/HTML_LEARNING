@@ -1,0 +1,19 @@
+nav > ul > li {
+  display: inline-block;
+  margin: 15px;
+}
+
+nav li > a {
+  text-decoration: none;
+}
+
+.headline {
+  text-align: center;
+  font-size: 44px;
+  color: yellowgreen;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 20px;
+}
