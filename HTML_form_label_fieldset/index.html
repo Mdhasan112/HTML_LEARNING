@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Items</title>
+    <style>
+      h2 {
+        text-align: center;
+        font-size: 44px;
+        color: lightgreen;
+      }
+      label {
+        display: block;
+        margin-bottom: 15px;
+      }
+      #reset {
+        margin-top: 15px;
+        padding: 10px 30px;
+        margin-right: 10px;
+      }
+      #submit {
+        padding: 10px 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <h2>Taste your favourite foods</h2>
+        <form>
+          <label for="name"
+            >Your Name:
+            <input type="text" id="name" placeholder="Enter Your Name" />
+          </label>
+          <label for="email"
+            >Your Email:
+            <input type="email" id="email" placeholder="Enter Your Email" />
+          </label>
+          <label for="phone"
+            >Your Phone:
+            <input type="text" id="phone" placeholder="Enter Your Phone" />
+          </label>
+          <fieldset>
+            <legend>Fast Food Items</legend>
+            <label for="burger">
+              <input type="radio" id="burger" name="fastFood" />Burger
+            </label>
+            <label for="pizza">
+              <input type="radio" id="pizza" name="fastFood" />
+              Pizza</label
+            >
+            <label for="chicken">
+              <input type="radio" id="chicken" name="fastFood" />Chicken
+              Fry</label
+            >
+          </fieldset>
+          <fieldset>
+            <legend>Pitha Iteams</legend>
+            <label for="chitoi">
+              <input type="checkbox" id="chitoi" name="pitha" />Chitoi</label
+            >
+            <label for="vapa">
+              <input type="checkbox" id="vapa" name="pitha" />Vapa</label
+            >
+            <label for="kuli">
+              <input type="checkbox" id="kuli" name="pitha" />Kuli</label
+            >
+          </fieldset>
+          <input id="reset" type="reset" />
+          <input id="submit" type="submit" />
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
